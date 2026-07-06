@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Fale conosco!</title>
+		<link rel="stylesheet" href="style14.css">
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+		<style>
+			p { text-align: center; }
+		</style>
+	</head>
+	
+	<body>
+	<header>
+		<div style = "background: url(flor.jpg);">
+	<h1><img src="Logocabecalho.png"></h1>	
+	</div>
+		<h1 class = "titulo_principal">O SABICHÃO</h1>
+		
+		<div class = "cabecalhofdp">
+
+					<a href="index.html">Inicio</a>
+					<br><br>
+					<a href="materias14.html">Materias</a><br>
+					<br>
+						<a href="#">?</a>
+						<br>
+					
+			</div>
+</header>
+<main>
+	<h1>Nos envie um email!</h1>
+	<h2 style = "text-align: center";>críticas,observações, ou seje um colaborador!</h2><br>
+	<form>
+		<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+
+					<label for="radio-email"><input type="radio" value="email" id="radio-email" name="botao"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="botao"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="botao" checked> Whatsapp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<br>
+				
+				<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulario" class="enviar">
+
+				<table>
+					<thead>
+						<tr>
+							<td>Dias</td>
+							<td>Horários</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h - 20h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h - 20h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h - 20h</td>
+						</tr>
+					</tbody>
+				</table>
+	</form>
+</main>
+<footer>
+<img src="Logocopyright.png">
+<p class="copyright">Todos os direitos reservados ao grupo O_SABICHÃO</p>	
+</footer>
+	</body>
+</html>

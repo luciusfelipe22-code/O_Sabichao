@@ -1,0 +1,336 @@
+header{
+   background: url("flor.jpg");
+   font-family: 'chewy';
+}
+
+.cabecalhofdp{
+color:#16753A;
+display: relative;
+ text-align: center;
+  font-size: 40px;
+}
+
+.cabecalhofdp a {
+color:#16753A;
+   
+}
+
+body {
+   font-family: 'chewy';
+   color:#16753A;
+   background: #FAF390;
+  }
+.titulo-principal:before {
+   content: "[ "
+}
+
+.titulo-principal:after {
+   content: " ]"
+}
+
+.titulo-principal:first-letter {
+   font-size: 2.5em;
+   color: red;
+}
+
+p:first-line {
+   font-style: italic;
+}
+
+#banner{
+   width: 450px;
+    height: auto; /* a imagem era grande dmskkkkk */
+}
+
+.titulo_principal{
+   font-size:60px;
+   color:#FF3D3D;
+text-align: center;
+padding-left: 20px;
+
+}
+
+.principal {
+   background: #EFE56B;
+   padding: 30px;
+  }
+/* .fusquinha {
+   width: 120px;  
+   float: left;
+   margin: 0 20px 20px 0;
+ }*/
+.titulo_centralizado {
+   text-align: center;
+   clear:left;
+  }
+
+h1 {
+   text-align: center;
+  }
+
+p {
+   text-align: center;
+   font-size: 40px;
+  }
+
+#objetivo {
+   font-size: 40px;
+  }
+
+i {
+   color: #FF3D3D; /*red*/
+  }
+
+.mapa {
+   text-align: center;
+   padding: 3em 30px;
+   background: linear-gradient(#FAF390,#EFE56B,#EFE56B, #16753A);
+}
+
+.materias_inicio {
+   background: #EFE56B;
+   padding: 20%;
+   box-shadow: inset 0 0 30px #FF0000;
+}
+
+.list_materi {
+   display: inline-block;
+   vertical-align: top;
+   width: 30%;
+   margin-right: 5%;
+   line-height: 1.5;
+   list-style-type: none; 
+}
+
+.itens {
+   text-align: center;
+   font-style: italic;
+   font-size: 55px;
+  }
+
+.itens:first-child {
+   font-weight: bold;
+}
+
+.itens:before {
+   content: "☆ "
+}
+
+
+.materias_unidas {
+   text-align: center;
+   padding-left: 50px;
+   width: 56%;
+   alt: "nossos amigos";
+   width: 50%;
+   opacity: 0.6;
+   transition: 400ms;
+   box-shadow: 10px 10px 5px  #000000, -10px -10px yellow, -20px 20px 20px rgba(255,0,0,0.5);
+
+}
+.materias_unidas:hover {
+  opacity: 1;
+}
+
+       
+        figcaption {
+         text-align: center;
+            font-size: 54px;
+            color: #16753A;
+            margin-top: 5px;
+        }
+/*PAGINA DAS MATERIAS*/
+
+body{
+  font-family: 'chewy';
+   color:#16753A;
+   background: #FAF390;
+}
+header {
+   font-size: 40;
+   font-family: 'chewy';
+   background: #EFE56B;
+   padding: 20px 0;
+}
+
+
+.caixa {
+   font-size: 40px;
+   text-align: center;
+   font-family: 'chewy';
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 90px;
+   right: 50px;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav li ul {
+   position: absolute;
+   top: 30px;
+   left: 230px;
+   padding: 0px 0px;
+   background-color: lightgreen;
+   display: none; 
+}
+
+nav li:hover ul {display: block;}
+
+nav li ul li {
+   color: #FFFFFF;
+   display: block;
+   width: 200px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #16753A;
+   font-weight: bold;
+   font-style: 22px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color:#C78C19;
+   text-decoration: underline;
+}
+
+.materias {
+   font-family:'chewy' ;
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.materias li {
+   </*display: inline-block;*/
+   text-align: center;
+   width: 100%;
+   vertical-align: top;
+   margin: 1.5% 1.5%;
+   padding: 50px 50px;
+   box-sizing: border-box;
+   border: 10px solid #16753A;
+   border-radius: 70px;
+}
+
+.timeline{
+
+width: 99% ;
+height: auto ;
+
+}
+
+.materias li:hover {
+   border-color: #C78C19;
+}
+
+.materia li:active {
+   border-color: #088C19;
+}
+
+.materia li:hover h2 {
+   font-size: 34px;
+}
+
+.materia h2 {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.produto_descricao {
+
+   font-family: 'chewy';
+   font-size: 38px;
+   font-weight: bold;
+}
+
+footer {
+   text-align: center;
+   background: url("flor.jpg");
+   padding: 40px;
+}
+
+.copyright {
+   color: #FFFFFF;
+   font-size: 60px;
+   margin: 20px 0 0 0;
+}
+/*secçãofale concosco !!!!!!*/
+
+main {
+   font-family: 'chewy';
+   width: 940px;
+   margin: 0 auto;
+}
+
+form {
+    font-family: 'chewy';
+   margin: 40px 0;
+}
+
+form label, form legend {
+   display: block;
+   text-align: left;
+   font-size: 20px;
+   margin: 0 0 10px;
+}
+
+.input-padrao {
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 20px;
+   width: 50%
+}
+
+.checkbox {
+   margin: 20px 0;
+}
+
+.enviar {
+   width: 20%;
+   padding: 15px 0;
+   background: orange;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor: pointer;
+}
+
+.enviar:hover {
+   background: darkorange;
+   transform: scale(1.2);
+}
+
+table {
+   margin: 20px 0 40px;
+}
+
+thead {
+   background: deeppink;
+   color: white;
+   font-weight: bold;
+}
+
+td, th {
+   border: 1px solid #000000;
+   padding: 8px 10px;
+}
